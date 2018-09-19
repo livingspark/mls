@@ -9,6 +9,7 @@ import cartsReducers from './carts'
 import settingsReducers from './settings'
 import tagsReducers from './tags'
 import vendorReducers from './vendor'
+import networkReducers from './network'
 
 const config = {
   key: 'root',
@@ -24,7 +25,8 @@ const reducers = persistCombineReducers(config, {
   cartsReducers,
   settingsReducers,
   tagsReducers,
-  vendorReducers
+  vendorReducers,
+  networkReducers
 })
 
 export default reducers

@@ -28,6 +28,7 @@ import FilterScreen from './screens/FilterScreen'
 import AttributeDetailScreen from './screens/AttributeDetailScreen'
 import SpecificationScreen from './screens/SpecificationScreen'
 import VendorScreen from './screens/VendorScreen'
+import NetworkNavigator from './screens/NetworkNavigator'
 
 const stackNavigatorConfiguration = {
   mode: 'card',
@@ -82,11 +83,16 @@ profileTabScreens[Constants.Screen.AddAddress] = { screen: AddAddressScreen }
 profileTabScreens[Constants.Screen.MyOrders] = { screen: MyOrdersScreen }
 const profileStack = createStackNavigator(profileTabScreens, stackNavigatorConfiguration)
 
+const networkScreen = {}
+networkScreen[Constants.Screen.Network] = { screen: NetworkNavigator}
+const networkStack = createStackNavigator(networkScreen, stackNavigatorConfiguration)
+
 const tabScreens = {}
 tabScreens[Constants.Screen.Home] = { screen: homeStack }
 tabScreens[Constants.Screen.Deals] = { screen: dealsStack }
 tabScreens[Constants.Screen.Search] = { screen: searchStack }
 tabScreens[Constants.Screen.Carts] = { screen: cartsStack }
+tabScreens[Constants.Screen.Network] = { screen: networkStack }
 tabScreens[Constants.Screen.MyProfile] = { screen: profileStack }
 
 const screens = {}

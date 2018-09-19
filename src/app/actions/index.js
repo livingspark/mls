@@ -5,6 +5,7 @@ import * as CartsActions from './carts'
 import * as SettingsActions from './settings'
 import * as TagsActions from './tags'
 import * as VendorActions from './vendor'
+import * as NetworkActions from './network'
 
 export const ActionCreators = Object.assign({},
   AuthActions,
@@ -13,5 +14,6 @@ export const ActionCreators = Object.assign({},
   CartsActions,
   SettingsActions,
   TagsActions,
-  VendorActions
+  VendorActions,
+  NetworkActions
 )
