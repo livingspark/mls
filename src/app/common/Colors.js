@@ -12,7 +12,16 @@ const Colors = {
   DarkCyan: "#007c7c",
   BorderInput: "#f2f2f2",
   TextInput: "#909090",
-  ButtonSuccess: "#008cff"
+  ButtonSuccess: "#008cff",
+  LightRed:'#DA9694',
+  LighterRed:'#F2DCDB',
+  LightGreen:'#76933C',
+  LighterGreen:'#EBF1DE',
+  Orange: '#E26B0A',
+  LighterOrange: '#FCD5B4',
+  Malibu: '#31869B',
+  LighterMalibu: '#B7DEE8',
+  White: 'white'
 };
 
 export default Colors;

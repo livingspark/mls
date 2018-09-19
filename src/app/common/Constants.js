@@ -26,7 +26,11 @@ const Constants = {
     Filter: 'Filter',
     AttributeDetail: 'AttributeDetail',
     Specification: 'Specification',
-    Vendor: 'Vendor'
+    Vendor: 'Vendor',
+    Network: 'Network',
+    Prospects: 'Prospects',
+    MyNetwork: 'My Network',
+    LeaderBoard: 'LeaderBoard'
   },
   ScreenSize: Dimensions.get('window'),
   EventEmitterName: {
